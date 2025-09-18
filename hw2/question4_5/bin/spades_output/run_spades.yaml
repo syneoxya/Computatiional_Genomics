@@ -1,0 +1,240 @@
+- STAGE: Before start
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Before_start_T80V1QE3VPG17XRPGPB6GK47431HLHIX
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: before_start
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Read_error_correction_ZV9KDNZE7BFKYTI4AWSB62QUFKBDHF4I
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: ec_start
+- STAGE: Read error correction
+  args:
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/configs/config.info
+  config_dir: corrected
+  del_after:
+  - tmp/hammer_4k7q7eur
+  job_uuid: SPAdes_Read_error_correction_QXJTZDWOKF2FX2FP4ZLNYIN4AV8PSB3Y
+  mpi_support: false
+  output_files:
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/corrected.yaml
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/spades-hammer
+  short_name: ec_runtool
+- STAGE: corrected reads compression
+  args:
+  - /Users/akshatchauhan/miniforge3/envs/asn2/share/spades/spades_pipeline/scripts/compress_all.py
+  - --input_file
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/corrected.yaml
+  - --ext_python_modules_home
+  - /Users/akshatchauhan/miniforge3/envs/asn2/share/spades
+  - --max_threads
+  - '16'
+  - --output_dir
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected
+  - --gzip_output
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_corrected_reads_compression_EXG1NHREPA5ZU1EPMNJIY32WEW4D0GWJ
+  mpi_support: false
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/python3
+  short_name: ec_compress
+- STAGE: Read error correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Read_error_correction_1W6LNAY2S5H989DBDZD82WPQOPNZIXHJ
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: ec_finish
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_8ZPSX3ATD7Z7A4790HJA3V1ZEIWVE29B
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_start
+- STAGE: K21
+  args:
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K21/configs/config.info
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K21/configs/careful_mode.info
+  config_dir: K21
+  del_after: []
+  job_uuid: hpcSPAdes_K21_4P87AMEDZL94HEJ14LGC3C7FUD34GPKM
+  mpi_support: true
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/{spades_core}
+  short_name: k21
+- STAGE: K33
+  args:
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K33/configs/config.info
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K33/configs/careful_mode.info
+  config_dir: K33
+  del_after: []
+  job_uuid: hpcSPAdes_K33_3I8RCV8UTFKPWLSSLBLKG0AJY8JBA1R3
+  mpi_support: true
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/{spades_core}
+  short_name: k33
+- STAGE: K55
+  args:
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K55/configs/config.info
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K55/configs/careful_mode.info
+  config_dir: K55
+  del_after: []
+  job_uuid: hpcSPAdes_K55_Q69OT5RCVM7GLLVQRN84WYMZOVR8FWX5
+  mpi_support: true
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/{spades_core}
+  short_name: k55
+- STAGE: K77
+  args:
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/configs/config.info
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/configs/careful_mode.info
+  config_dir: K77
+  del_after: []
+  job_uuid: hpcSPAdes_K77_N4IX51V2VZVEUS9WDGZSC39YX2WKCNIS
+  mpi_support: true
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/{spades_core}
+  short_name: k77
+- STAGE: Copy files
+  args:
+  - /Users/akshatchauhan/miniforge3/envs/asn2/share/spades/spades_pipeline/scripts/copy_files.py
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/before_rr.fasta
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/before_rr.fasta
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/assembly_graph_after_simplification.gfa
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/assembly_graph_after_simplification.gfa
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/final_contigs.fasta
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/contigs.fasta
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/first_pe_contigs.fasta
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/first_pe_contigs.fasta
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/strain_graph.gfa
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/strain_graph.gfa
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/scaffolds.fasta
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/scaffolds.fasta
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/scaffolds.paths
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/scaffolds.paths
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/assembly_graph_with_scaffolds.gfa
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/assembly_graph_with_scaffolds.gfa
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/assembly_graph.fastg
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/assembly_graph.fastg
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/K77/final_contigs.paths
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/contigs.paths
+  config_dir: ''
+  del_after:
+  - .bin_reads
+  - tmp/spades_mfmesf63
+  job_uuid: SPAdes_Copy_files_DSL1934JDWXJPPWVB166IT4JX8CATH1C
+  mpi_support: false
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/python3
+  short_name: copy_files
+- STAGE: Assembling
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Assembling_W8C8OEUXBHBOVWD9XNPPOBIYB8JB51PC
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: as_finish
+- STAGE: Mismatch correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Mismatch_correction_W63DUMJU4QQZLGK058KB3YLKE0BVJYEI
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: mc_start
+- STAGE: Mismatch correction contigs
+  args:
+  - /Users/akshatchauhan/miniforge3/envs/asn2/share/spades/spades_pipeline/scripts/correction_iteration_script.py
+  - --corrected
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/contigs.fasta
+  - --assembled
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/misc/assembled_contigs.fasta
+  - --assembly_type
+  - contigs
+  - --output_dir
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output
+  - --bin_home
+  - /Users/akshatchauhan/miniforge3/envs/asn2/bin
+  config_dir: mismatch_corrector/contigs
+  del_after:
+  - mismatch_corrector/contigs/tmp
+  - tmp/corrector_em0794as
+  job_uuid: SPAdes_Mismatch_correction_contigs_XOJL048XRO0S1T240FH9RYOIL3LBK8VP
+  mpi_support: false
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/python3
+  short_name: mc_contigs
+- STAGE: Mismatch correction scaffolds
+  args:
+  - /Users/akshatchauhan/miniforge3/envs/asn2/share/spades/spades_pipeline/scripts/correction_iteration_script.py
+  - --corrected
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/scaffolds.fasta
+  - --assembled
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/misc/assembled_scaffolds.fasta
+  - --assembly_type
+  - scaffolds
+  - --output_dir
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output
+  - --bin_home
+  - /Users/akshatchauhan/miniforge3/envs/asn2/bin
+  config_dir: mismatch_corrector/scaffolds
+  del_after:
+  - mismatch_corrector/scaffolds/tmp
+  - tmp/corrector_b1gkmm5n
+  job_uuid: SPAdes_Mismatch_correction_scaffolds_DTI3SU7LH9A1YA7BM6OYDVA84T1040F2
+  mpi_support: false
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/python3
+  short_name: mc_scaffolds
+- STAGE: Mismatch correction
+  args: []
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Mismatch_correction_IR3I0OWUUDN9U4C325HDBKFAC9TEJYP4
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: mc_finish
+- STAGE: Breaking scaffolds
+  args:
+  - /Users/akshatchauhan/miniforge3/envs/asn2/share/spades/spades_pipeline/scripts/breaking_scaffolds_script.py
+  - --result_scaffolds_filename
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/scaffolds.fasta
+  - --misc_dir
+  - /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/misc
+  - --threshold_for_breaking_scaffolds
+  - '3'
+  config_dir: ''
+  del_after: []
+  job_uuid: SPAdes_Breaking_scaffolds_G1GE42IP6NUH3MC13LYDFVP7DNSW2XGP
+  mpi_support: false
+  output_files: []
+  path: /Users/akshatchauhan/miniforge3/envs/asn2/bin/python3
+  short_name: bs
+- STAGE: Terminate
+  args: []
+  config_dir: ''
+  del_after:
+  - configs
+  job_uuid: SPAdes_Terminate_7MTVQHNPNYAYQV3S8PLL3NGSSPTXEXD7
+  mpi_support: false
+  output_files: []
+  path: 'true'
+  short_name: terminate

@@ -1,0 +1,101 @@
+­0---
+max read length: 100
+nomerge max read length: 100
+average read length: 66.7355
+average coverage: 6.72739
+libraries:
+  - type:            paired-end
+    number:          1
+    orientation:     fr
+    left reads:
+      - '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/frag180.100.0_0.cor.fastq.gz'
+    right reads:
+      - '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/frag180.200.0_0.cor.fastq.gz'
+    single reads:
+      - '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/frag180._unpaired00.0_0.cor.fastq.gz'
+    data:
+      unmerged read length: 100
+      merged read length: 0
+      insert size mean: 179.956
+      insert size deviation: 19.8642
+      insert size left quantile: 155
+      insert size right quantile: 206
+      insert size median: 180
+      insert size mad: 13
+      insert size distribution: { 106: 1, 107: 1, 108: 1, 110: 1, 111: 1, 
+                                  113: 2, 115: 2, 116: 5, 117: 1, 118: 6, 
+                                  119: 4, 120: 3, 121: 9, 122: 5, 123: 12, 
+                                  124: 5, 125: 9, 126: 12, 127: 8, 128: 10, 
+                                  129: 19, 130: 19, 131: 19, 132: 27, 133: 27, 
+                                  134: 38, 135: 31, 136: 38, 137: 45, 138: 47, 
+                                  139: 42, 140: 47, 141: 60, 142: 87, 143: 76, 
+                                  144: 91, 145: 113, 146: 103, 147: 114, 
+                                  148: 131, 149: 113, 150: 131, 151: 142, 
+                                  152: 180, 153: 157, 154: 193, 155: 230, 
+                                  156: 238, 157: 242, 158: 252, 159: 262, 
+                                  160: 284, 161: 286, 162: 312, 163: 268, 
+                                  164: 318, 165: 360, 166: 363, 167: 378, 
+                                  168: 386, 169: 384, 170: 408, 171: 390, 
+                                  172: 426, 173: 426, 174: 423, 175: 429, 
+                                  176: 437, 177: 487, 178: 468, 179: 439, 
+                                  180: 427, 181: 421, 182: 462, 183: 445, 
+                                  184: 423, 185: 425, 186: 438, 187: 454, 
+                                  188: 376, 189: 407, 190: 385, 191: 364, 
+                                  192: 386, 193: 348, 194: 327, 195: 355, 
+                                  196: 366, 197: 290, 198: 260, 199: 291, 
+                                  200: 270, 201: 263, 202: 253, 203: 237, 
+                                  204: 211, 205: 210, 206: 193, 207: 186, 
+                                  208: 174, 209: 157, 210: 128, 211: 165, 
+                                  212: 115, 213: 107, 214: 112, 215: 101, 
+                                  216: 77, 217: 68, 218: 65, 219: 60, 220: 56, 
+                                  221: 51, 222: 52, 223: 35, 224: 39, 225: 40, 
+                                  226: 31, 227: 33, 228: 28, 229: 25, 230: 14, 
+                                  231: 18, 232: 12, 233: 13, 234: 13, 235: 14, 
+                                  236: 5, 237: 8, 238: 11, 239: 4, 240: 6, 
+                                  241: 4, 242: 4, 243: 5, 244: 1, 245: 1, 
+                                  246: 1, 247: 2, 248: 1, 249: 2, 250: 1, 
+                                  254: 1, 255: 1, 256: 2 }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/.bin_reads/INFO_0'
+        paired read prefix: '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/.bin_reads/paired_0'
+        merged read prefix: '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/.bin_reads/merged_0'
+        single read prefix: '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/.bin_reads/single_0'
+        chunk num:       11
+      single reads mapped: false
+      library index:   0
+      number of reads: 70383
+      total nucleotides: 7038300
+  - type:            paired-end
+    number:          2
+    orientation:     fr
+    left reads:
+      - '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/jump2k.100.1_0.cor.fastq.gz'
+    right reads:
+      - '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/jump2k.200.1_0.cor.fastq.gz'
+    single reads:
+      - '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/jump2k._unpaired00.1_0.cor.fastq.gz'
+    data:
+      unmerged read length: 50
+      merged read length: 0
+      insert size mean: 3803
+      insert size deviation: 0
+      insert size left quantile: 3803
+      insert size right quantile: 3803
+      insert size median: 3803
+      insert size mad: 0
+      insert size distribution: { 3803: 1 }
+      pi threshold:    0
+      binary reads info:
+        binary converted: true
+        bin reads info file: '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/.bin_reads/INFO_1'
+        paired read prefix: '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/.bin_reads/paired_1'
+        merged read prefix: '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/.bin_reads/merged_1'
+        single read prefix: '/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/.bin_reads/single_1'
+        chunk num:       11
+      single reads mapped: false
+      library index:   1
+      number of reads: 139898
+      total nucleotides: 6994900
+...

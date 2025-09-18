@@ -1,0 +1,12 @@
+/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4_5/bin/ref.fa /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4_5/bin/asm/contigs.fasta
+NUCMER
+
+    [S1]     [E1]  |     [S2]     [E2]  |  [LEN 1]  [LEN 2]  |  [% IDY]  |  [LEN R]  [LEN Q]  |  [COV R]  [COV Q]  | [TAGS]
+===============================================================================================================================
+       3    26789  |    41445    14659  |    26787    26787  |   100.00  |   233806    41445  |    11.46    64.63  | Halomonas	NODE_3_length_41445_cov_18.207587
+   26788    40639  |    13852        1  |    13852    13852  |   100.00  |   233806    41445  |     5.92    33.42  | Halomonas	NODE_3_length_41445_cov_18.207587
+   40664    88512  |    47849        1  |    47849    47849  |   100.00  |   233806    47849  |    20.47   100.00  | Halomonas	NODE_2_length_47849_cov_17.929943
+   88516   127956  |    39441        1  |    39441    39441  |   100.00  |   233806    39441  |    16.87   100.00  | Halomonas	NODE_4_length_39441_cov_18.559959
+  127960   233793  |   105834        1  |   105834   105834  |   100.00  |   233806   105834  |    45.27   100.00  | Halomonas	NODE_1_length_105834_cov_18.177840
+  221067   221165  |     6995     6897  |       99       99  |    95.96  |   233806   105834  |     0.04     0.09  | Halomonas	NODE_1_length_105834_cov_18.177840
+  226799   226897  |    12727    12629  |       99       99  |    95.96  |   233806   105834  |     0.04     0.09  | Halomonas	NODE_1_length_105834_cov_18.177840

@@ -1,0 +1,7 @@
+"bwa": "/Users/akshatchauhan/miniforge3/envs/asn2/bin/spades-bwa"
+"dataset": "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/input_dataset.yaml"
+"log_filename": "log.properties"
+"max_nthreads": !!int "16"
+"output_dir": "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/mismatch_corrector/contigs"
+"strategy": "mapped_squared"
+"work_dir": "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/tmp/corrector_em0794as"

@@ -1,0 +1,14 @@
+- "left reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/frag180.1.fq"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/frag180.2.fq"
+  "type": "paired-end"
+- "left reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/jump2k.1.fq"
+  "number": !!int "1"
+  "orientation": "rf"
+  "right reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/jump2k.2.fq"
+  "type": "mate-pairs"

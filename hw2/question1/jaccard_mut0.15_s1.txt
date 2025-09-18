@@ -1,0 +1,2 @@
+filename_a	filename_b	jaccard	ani_exact	ani_approx
+chr22_orig.fa	chr22_mut0.15_s1.fa	0.018422	0.826793	0.809800

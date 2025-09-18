@@ -1,0 +1,18 @@
+- "left reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/frag180.100.0_0.cor.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/frag180.200.0_0.cor.fastq.gz"
+  "single reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/frag180._unpaired00.0_0.cor.fastq.gz"
+  "type": "paired-end"
+- "left reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/jump2k.100.1_0.cor.fastq.gz"
+  "number": !!int "2"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/jump2k.200.1_0.cor.fastq.gz"
+  "single reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/corrected/jump2k._unpaired00.1_0.cor.fastq.gz"
+  "type": "paired-end"

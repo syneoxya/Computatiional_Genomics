@@ -1,0 +1,16 @@
+digraph debruijn {
+    "TAT" -> "ATT";
+    "TCA" -> "CAT";
+    "TGA" -> "GAT";
+    "TTC" -> "TCT";
+    "CAT" -> "ATT";
+    "ATT" -> "TTC";
+    "ATT" -> "TTG";
+    "GAT" -> "ATT";
+    "CTT" -> "TTA";
+    "ATT" -> "TTT";
+    "TCT" -> "CTT";
+    "TTA" -> "TAT";
+    "TTC" -> "TCA";
+    "TTG" -> "TGA";
+}

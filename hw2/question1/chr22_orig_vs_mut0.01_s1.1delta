@@ -1,0 +1,5 @@
+/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/chr22_orig.fa /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/chr22_mut0.01_s1.fa
+NUCMER
+>chr22:20000000-21000000 chr22:20000000-21000000 1000001 1000001
+1 1000001 1 1000001 10000 10000 0
+0

@@ -1,0 +1,2 @@
+filename_a	filename_b	mod_value	modimizers_a	modimizers_b	jaccard	ani_exact	ani_approx
+chr22_orig.fa	chr22_mut0.15_s2.fa	100	9290	9916	0.018184	0.826281	0.809180

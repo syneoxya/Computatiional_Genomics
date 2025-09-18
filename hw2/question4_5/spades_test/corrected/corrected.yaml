@@ -1,0 +1,9 @@
+- "left reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/spades_test/corrected/ecoli_1K_1.fq00.0_0.cor.fastq.gz"
+  "number": !!int "1"
+  "orientation": "fr"
+  "right reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/spades_test/corrected/ecoli_1K_2.fq00.0_0.cor.fastq.gz"
+  "single reads":
+  - "/Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/spades_test/corrected/ecoli_1K__unpaired00.0_0.cor.fastq.gz"
+  "type": "paired-end"

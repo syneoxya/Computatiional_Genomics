@@ -1,0 +1,5 @@
+
+=== Error correction and assembling warnings:
+ * 0:00:00.002     1M / 5M    WARN    General                 (memory_limit.cpp          :  53)   Failed to limit memory to 250 Gb, setrlimit(2) call failed, errno = 22 (Invalid argument). Watch your memory consumption!
+ * 0:00:01.183   197M / 414M  WARN    General                 (paired_info_utils.cpp     : 125)   Too much reads aligned with negative insert size. Is the library orientation set properly?
+======= Warnings saved to /Users/akshatchauhan/Desktop/JHU/Computational_Genomics/Computatiional_Genomics/hw2/question4/bin/spades_output/warnings.log
